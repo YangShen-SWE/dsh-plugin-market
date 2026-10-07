@@ -301,6 +301,7 @@ import { plugin as upstreamPlugin298 } from "./anweat-dsh-voice-webspeech";
 import { plugin as upstreamPlugin299 } from "./anweat-dsh-restart";
 import { plugin as upstreamPlugin300 } from "./yyh-001-dsh-expression";
 import { plugin as upstreamPlugin301 } from "./pc2005-cloud-dsh-pet-dsh-pet";
+import { plugin as simpleDesktopPet } from "./yangshen-swe-dsh-plugin-simple-pet";
 
 export const plugins: Plugin[] = [
   upstreamPlugin001,
@@ -604,4 +605,5 @@ export const plugins: Plugin[] = [
   upstreamPlugin299,
   upstreamPlugin300,
   upstreamPlugin301,
+  simpleDesktopPet,
 ];
